@@ -1,0 +1,26 @@
+# Core pipeline
+pipecat-ai[silero,twilio]>=0.0.53
+
+# STT — local faster-whisper
+faster-whisper>=1.0.3
+
+# LLM
+anthropic>=0.28
+
+# Web server
+fastapi>=0.111
+uvicorn[standard]>=0.30
+websockets>=12
+
+# Telephony
+twilio>=9.2
+
+# Local tunnel for dev testing
+pyngrok>=7.2
+
+# CosyVoice2 HTTP client + audio resampling
+httpx>=0.27
+numpy>=1.26
+
+# Config
+python-dotenv>=1.0
